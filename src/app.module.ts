@@ -42,19 +42,19 @@ export class AppModule implements NestModule {
     consumer.apply(LoggerMiddleware).forRoutes(
       // protected route
       //driver
-      { path: 'driver/add', method: RequestMethod.POST },
-      //bus
-      { path: 'bus/add', method: RequestMethod.POST },
-      { path: 'bus', method: RequestMethod.GET },
-      { path: 'bus/:_id', method: RequestMethod.GET },
-      { path: 'bus/:_id', method: RequestMethod.PATCH },
-      { path: 'bus/:_id', method: RequestMethod.DELETE },
-      //student
-      { path: 'student/add', method: RequestMethod.POST },
-      { path: 'student', method: RequestMethod.GET },
-      { path: 'student/:_id', method: RequestMethod.GET },
-      { path: 'student/:_id', method: RequestMethod.PATCH },
-      { path: 'student/:_id', method: RequestMethod.DELETE },
+      // { path: 'driver/add', method: RequestMethod.POST },
+      // //bus
+      // { path: 'bus/add', method: RequestMethod.POST },
+      // { path: 'bus', method: RequestMethod.GET },
+      // { path: 'bus/:_id', method: RequestMethod.GET },
+      // { path: 'bus/:_id', method: RequestMethod.PATCH },
+      // { path: 'bus/:_id', method: RequestMethod.DELETE },
+      // //student
+      // { path: 'student/add', method: RequestMethod.POST },
+      // { path: 'student', method: RequestMethod.GET },
+      // { path: 'student/:_id', method: RequestMethod.GET },
+      // { path: 'student/:_id', method: RequestMethod.PATCH },
+      // { path: 'student/:_id', method: RequestMethod.DELETE },
     );
   }
 }
